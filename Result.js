@@ -32,7 +32,7 @@ function Result() {
     return {
       gpacal: gpa,
       greadcal: gread
-    }
+    };
   }
 
   this.finalCgpa = function (bn, en, math, sciance, socialscince, rel) {
