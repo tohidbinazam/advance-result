@@ -2,7 +2,7 @@ let res = new Result();
 
 student.map((data) =>
   console.log(`
-        Roll =          ${data.roll} 
+        Roll =           
         Name =          ${data.name}
         Class =         ${data.class}
 
