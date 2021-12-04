@@ -2,7 +2,9 @@ let res = new Result();
 
 student.map((data) =>
   console.log(`
-
+        Roll =          ${data.roll} 
+        Name =          ${data.name}
+        Class =         ${data.class}
 
                         Marks       GPA         Gread
 
