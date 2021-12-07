@@ -1,6 +1,6 @@
 let res = new Result();
 
-student.map((data) =>
+student.map((data, index) =>
   console.log(`
         Roll =          ${data.roll} 
         Name =          ${data.name}
