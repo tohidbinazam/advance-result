@@ -7,7 +7,7 @@ const peopel = [
     {
         name : 'Ariful Islam',
         age : 32,
-        location : 'Utharra'
+        location : 'Banani'
     },
     {
         name : 'Sazid Buhia',
@@ -16,11 +16,11 @@ const peopel = [
     }
 ];
 
-function massage(name, age){
+function massage(name, age, locations){
 
     let joining;
  if(age >= 0 && age <18){
-  joining = `Hello ${name}, You are ${age} years old, You can't join this party`
+   joining = `Hello ${name}, You are ${age} years old, You can't join this party ${locations}`
  }else if(age >= 18 && age < 40){
   joining = `Hello ${name}, You are ${age} years old, You can join this party`
  }else if(age >= 40){
@@ -28,5 +28,5 @@ function massage(name, age){
  }
  return joining;
 }
-peopel.map(data => console.log(massage(data.name, data.age)))
+peopel.map(data => console.log(massage(data.name, data.age, data.location)));
 
